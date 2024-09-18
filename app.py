@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 # Allow CORS only for requests from the React app URL
-CORS(app, resources={r"/*": {"origins": "https://ambitious-sky-0adcaca03.5.azurestaticapps.net"}})
+CORS(app, resources={r"/*": {"origins": "https://orange-smoke-033de2403.5.azurestaticapps.net"}})
 
 # Example GET route
 @app.route('/api/data', methods=['GET'])
